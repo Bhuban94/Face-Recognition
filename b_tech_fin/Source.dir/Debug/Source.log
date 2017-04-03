@@ -1,0 +1,14 @@
+﻿Build started 10-05-2016 15:31:19.
+     1>Project "C:\Users\BHUBAN\Desktop\b_tech_fin\Source.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\BHUBAN\Downloads\dlib-18.18\dlib-18.18\dlib\.." /IC:\Users\BHUBAN\Downloads\Programs\opencv\build\include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D DLIB_PNG_SUPPORT /D DLIB_JPEG_SUPPORT /D _DEBUG /D ENABLE_ASSERTS /D DLIB_HAVE_SSE2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Source.dir\Debug\\" /Fd"Source.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(117): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\BHUBAN\Desktop\b_tech_fin\Debug\Source.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\BHUBAN\Downloads\Programs\opencv\build\x86\vc12\lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib opencv_core2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_objdetect2410d.lib opencv_contrib2410d.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib dlib_build\Debug\dlib.lib ws2_32.lib winmm.lib comctl32.lib imm32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/BHUBAN/Desktop/b_tech_fin/Debug/Source.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/BHUBAN/Desktop/b_tech_fin/Debug/Source.lib" /MACHINE:X86 /SAFESEH  /machine:X86 Source.dir\Debug\Source.obj
+         Source.vcxproj -> C:\Users\BHUBAN\Desktop\b_tech_fin\Debug\Source.exe
+     1>Done Building Project "C:\Users\BHUBAN\Desktop\b_tech_fin\Source.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:28.23
